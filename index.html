@@ -1,242 +1,236 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sunday Times Project</title>
-    <link
+<head>
+  <meta charset="UTF-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>Sunday Times Project</title>
+  <link
       href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap"
       rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./css/normalize.css" />
-    <link rel="stylesheet" href="./css/stylesheet.css" />
-  </head>
-  <body>
-    <nav class="bgBlack">
-      <ul class="flexContainer mainContainer navBar">
-        <li class="noHover"><h1 class="textLogo">The Sunday Times</h1></li>
-        <li class="bgGray">Todays's sections</li>
-        <li class="borderRight">Past six days</li>
-        <li class="horizontalSpacer borderRight"></li>
-        <li class="borderRight">Times+</li>
-        <li class="borderRight">Subscribe</li>
-        <li class="borderRight">Log in</li>
+  />
+  <link href="./css/normalize.css" rel="stylesheet"/>
+  <link href="./css/stylesheet.css" rel="stylesheet"/>
+</head>
+<body>
+<nav class="bgBlack">
+  <ul class="flex mainContainer mAuto navBar">
+    <li class="flex noHover"><h1 class="textLogo uppercase">The Sunday Times</h1></li>
+    <li class="flex bgGray">Todays's sections</li>
+    <li class="flex borderRight">Past six days</li>
+    <li class="flex horizontalSpacer borderRight noHover"></li>
+    <li class="flex borderRight">Times+</li>
+    <li class="flex borderRight">Subscribe</li>
+    <li class="flex borderRight">Log in</li>
+  </ul>
+</nav>
+<section class="mainContainer mAuto bgWhite">
+  <header>
+    <figure class="mainLogo uppercase">
+      <img alt="main logo" src="images/mainLogo.png"/>
+      <figcaption class="bold">
+        <time datetime="2020-03-22">
+          Sunday March 22 2020
+        </time>
+        - Midday Update
+      </figcaption>
+    </figure>
+  </header>
+  <section class="flex">
+    <section class="flex banner bold">
+      <img alt="Way Pointer Sign" src="images/bannerRow/bannerRow1.png"/>
+      <article class="bannerText">
+        <h2>Best Places to live</h2>
+        <p>
+          Did your community make a cut? Find the top new neighbourhoods
+        </p>
+      </article>
+      <footer class="bold uppercase">Read our definitive guide &gt;</footer>
+    </section>
+    <section class="flex banner bold">
+      <img
+          alt="Sex Education Poster"
+          src="images/bannerRow/bannerRow2.png"
+      />
+      <article class="bannerText">
+        <h2>Sefl-isolation guide</h2>
+        <p>
+          Our pick of 50 great TV series - plus films, podcasts and books
+        </p>
+      </article>
+      <footer class="bold uppercase">Culture &gt;</footer>
+    </section>
+    <section class="flex banner bold">
+      <article class="bannerText">
+        <h2>Sergei Polunin</h2>
+        <p>Interview: the dancer on fatherhood and his troubled past</p>
+      </article>
+      <footer class="bold uppercase">Magazine &gt;</footer>
+    </section>
+    <section class="flex banner bold">
+      <article class="bannerText">
+        <h2>Coronavirus newsletter</h2>
+        <p>
+          Our daily briefing covers all the key developments with expert
+          analysis
+        </p>
+      </article>
+      <footer class="bold uppercase">Sign up now &gt;</footer>
+    </section>
+  </section>
+  <section class="firstRow">
+    <section class="firstRowItem firstRowDouble separatorVertical">
+      <article class="firstRowDoubleItem separatorHorizontal">
+        <h2>Stay at home alone to save your life, 1.5m warned</h2>
+        <h3>GPs send letters to those most at risk</h3>
+        <p>
+          More than a million people most at risk from the coronavirus were
+          told to live in isolation at home for three months last night as
+          Boris Johnson issued his starkest warning yet that the pandemic
+          could “overwhelm” the NHS if people did not heed government
+          warnings. Some 1.5 million personally...
+        </p>
+        <footer>
+          Read the full story &gt;
+        </footer>
+      </article>
+      <article class="firstRowDoubleItem">
+        <p class="tag bold uppercase">Insight</p>
+        <h2>
+          Exposed: the doctor who got £2.5m in a week for &quot;coronavirus
+          tests&quot;
+        </h2>
+        <p>
+          A private doctor has raked in £2.5m in one week by profiteering
+          from thousands of people across Britain who are desperate to find
+          out whether they have contracted the coronavirus. Dr Mark Ali, a
+          56-year-old cardiologist, has sold more than 6,600 coronavirus
+          test kits for £375 each to people who fear they have the illness.
+          The price is more...
+        </p>
+        <footer>
+          Read the full story &gt;
+        </footer>
+      </article>
+    </section>
+    <article class="firstRowItem separatorVertical">
+      <p class="tag bold uppercase">Coronavirus | Expert Q &amp; A</p>
+      <h2>
+        Did Britain get it wrong in the battle to stop the spread?
+      </h2>
+      <p>
+        As the fight to suppress the coronavirus pandemic grew ever more
+        urgent last week, a two-year-old video clip from a literary festival
+        in Wales posed an awkward question for officials still scrambling to
+        stem the tide of infection. In May 2018 a prominent professor at
+        Edinburgh University predicted with uncanny...
+      </p>
+      <footer>
+        Read the full story &gt;
+      </footer>
+    </article>
+    <article class="firstRowItem">
+      <h2>
+        Mo Farah caught up in doping inquiry row
+      </h2>
+      <img
+          alt="Mo Farah"
+          class="frontRowImage"
+          src="images/firstRowPhoto.jpg"
+      />
+    </article>
+  </section>
+  <section class="secondRow">
+    <article class="secondRowItem separatorVertical">
+      <img alt="article 1" src="images/section2/article1.jpg"/>
+      <p class="tag bold uppercase">Coronavirus</p>
+      <h3>Flights from Italy, Iran and China still landing</h3>
+    </article>
+    <article class="secondRowItem separatorVertical">
+      <img alt="article 2" src="images/section2/article2.jpg"/>
+      <p class="tag bold uppercase">Coronavirus update</p>
+      <h3>Cabinet squabble over who is to be PM’s ‘designated survivor’</h3>
+    </article>
+    <article class="secondRowItem separatorVertical">
+      <img alt="article 3" src="images/section2/article3.jpg"/>
+      <p class="tag bold uppercase">Coronavirus</p>
+      <h3>
+        &quot;Unacceptable&quot; equipment shortages putting our lives at
+        risk, doctors warn PM
+      </h3>
+    </article>
+    <article class="secondRowItem">
+      <img alt="article 4" src="images/section2/article4.jpg"/>
+      <p class="tag bold uppercase">David Smith</p>
+      <h3>Even in wartime, nobody dared to do this</h3>
+    </article>
+    <article class="secondRowItem separatorVertical">
+      <p class="tag bold uppercase">Coronavirus</p>
+      <h3>Tesco ditches offers — and raises prices</h3>
+      <p>
+        Britain’s biggest supermarket chain has removed promotions and
+        multi-buy deals to deter shoppers from stockpiling, while also
+        pushing up the prices on hundreds of products as coronavirus
+        panic-buying hammered grocery stocks.
+      </p>
+      <footer>
+        Read the full story &gt;
+      </footer>
+    </article>
+    <article class="secondRowItem separatorVertical">
+      <img alt="Boris Johnson" src="images/section2/article6.jpg"/>
+      <p class="tag bold uppercase">Boris Johnson</p>
+      <h3>Don’t visit Mum today. It’s the best way to show you love her</h3>
+    </article>
+    <article class="secondRowItem separatorVertical">
+      <p class="tag bold uppercase">Coronavirus</p>
+      <h3>Queen plans national address as royals leave London</h3>
+      <p>
+        The Queen is to speak to the nation as the coronavirus crisis
+        worsens. It will be only the fourth special address of her 68-year
+        reign. Her Majesty gave her last such speech in 2002 on the eve of
+        her mother’s funeral. Her...
+      </p>
+      <footer>
+        Read the full story &gt;
+      </footer>
+    </article>
+    <article class="secondRowItem">
+      <img alt="Comedian" src="images/section2/article8.jpg"/>
+      <p class="tag bold uppercase">Coronavirus</p>
+      <h3>
+        A comedian walks into a crisis . . . and finds a new source of jokes
+      </h3>
+    </article>
+  </section>
+  <section class="moreButtonContainer">
+    <button class="moreButtonItem bold mAuto uppercase">Show more</button>
+  </section>
+</section>
+<footer class="mainFooter bgBlack">
+  <section class="mainContainer mAuto">
+    <p class="finePrint">
+      <small>
+        © Times Newspapers Limited 2020. Registered in England No. 894646.
+        <br/>
+        Registered office: 1 London Bridge Street, SE1 9GF.
+      </small>
+    </p>
+    
+    <nav>
+      <ul class="flex navBar">
+        <li>Privacy & cookie policy</li>
+        <li>Licensing</li>
+        <li>Cookie settings</li>
+        <li>Site map</li>
+        <li>Topics</li>
+        <li>Commissioning terms</li>
+        <li>Terms and conditions</li>
+        <li class="noHover">
+          <img alt="IPSO Logo" src="images/footer/ipsoLogo.png"/>
+        </li>
       </ul>
     </nav>
-    <section class="mainContainer bgWhite">
-      <header>
-        <figure class="mainLogo">
-          <img
-            src="./images/sundaytimes-with-crest-black-53d6e31fb8.png"
-            alt="main logo"
-          />
-          <figcaption>
-            <time datetime="2020-03-22">
-              Sunday March 22 2020
-            </time>
-            - Midday Update
-          </figcaption>
-        </figure>
-      </header>
-      <section class="flexContainer">
-        <section class="banner">
-          <img
-            src="images/bannerRow/methode_sundaytimes_prod_web_bin_1639edda-933d-4028-aafe-d11ab11bd485.png"
-            alt="Way Pointer Sign"
-          />
-          <article class="bannerText">
-            <h2>Best Places to live</h2>
-            <p>
-              Did your community make a cut? Find the top new neighbourhoods
-            </p>
-          </article>
-          <footer>Read our definitive guide &gt;</footer>
-        </section>
-        <section class="banner">
-          <img
-            src="images/bannerRow/methode_sundaytimes_prod_web_bin_682490f2-109f-41e3-ba2e-e3a27ed010f3.png"
-            alt="Sex Education Poster"
-          />
-          <article class="bannerText">
-            <h2>Sefl-isolation guide</h2>
-            <p>
-              Our pick of 50 great TV series - plus films, podcasts and books
-            </p>
-          </article>
-          <footer>Culture &gt;</footer>
-        </section>
-        <section class="banner">
-          <article class="bannerText">
-            <h2>Sergei Polunin</h2>
-            <p>Interview: the dancer on fatherhood and his troubled past</p>
-          </article>
-          <footer>Magazine &gt;</footer>
-        </section>
-        <section class="banner">
-          <article class="bannerText">
-            <h2>Coronavirus newsletter</h2>
-            <p>
-              Our daily briefing covers all the key developments with expert
-              analysis
-            </p>
-          </article>
-          <footer>Sign up now &gt;</footer>
-        </section>
-      </section>
-      <section class="firstRow">
-        <section class="firstRowItem firstRowDouble separatorVertical">
-          <article class="firstRowDoubleItem separatorHorizontal">
-            <h2>Stay at home alone to save your life, 1.5m warned</h2>
-            <h3>GPs send letters to those most at risk</h3>
-            <p>
-              More than a million people most at risk from the coronavirus were
-              told to live in isolation at home for three months last night as
-              Boris Johnson issued his starkest warning yet that the pandemic
-              could “overwhelm” the NHS if people did not heed government
-              warnings. Some 1.5 million personally...
-            </p>
-            <footer>
-              Read the full story &gt;
-            </footer>
-          </article>
-          <article class="firstRowDoubleItem">
-            <p class="tag">Insight</p>
-            <h2>
-              Exposed: the doctor who got $2.5m in a week for &quot;coronavirus
-              tests&quot;
-            </h2>
-            <p>
-              A private doctor has raked in £2.5m in one week by profiteering
-              from thousands of people across Britain who are desperate to find
-              out whether they have contracted the coronavirus. Dr Mark Ali, a
-              56-year-old cardiologist, has sold more than 6,600 coronavirus
-              test kits for £375 each to people who fear they have the illness.
-              The price is more...
-            </p>
-            <footer>
-              Read the full story &gt;
-            </footer>
-          </article>
-        </section>
-        <article class="firstRowItem separatorVertical">
-          <p class="tag">Coronavirus | Expert Q &amp; A</p>
-          <h2>
-            Did Britain get it wrong in the battle to stop the spread?
-          </h2>
-          <p>
-            As the fight to suppress the coronavirus pandemic grew ever more
-            urgent last week, a two-year-old video clip from a literary festival
-            in Wales posed an awkward question for officials still scrambling to
-            stem the tide of infection. In May 2018 a prominent professor at
-            Edinburgh University predicted with uncanny...
-          </p>
-          <footer>
-            Read the full story &gt;
-          </footer>
-        </article>
-        <article class="firstRowItem">
-          <h2>
-            Mo Farah caught up in doping inquiry row
-          </h2>
-          <img
-            class="frontRowImage"
-            src="images/methode_sundaytimes_prod_web_bin_30967372-6bab-11ea-99b3-ee2141ccf633.jpg"
-            alt="Mo Farah"
-          />
-        </article>
-      </section>
-      <section class="secondRow">
-        <article class="secondRowItem separatorVertical">
-          <img src="./images/section2/a1.jpg" alt="article 1" />
-          <p class="tag">Coronavirus</p>
-          <h3>Flights from Italy, Iran and China still landing</h3>
-        </article>
-        <article class="secondRowItem separatorVertical">
-          <img src="./images/section2/a2.jpg" alt="article 2" />
-          <p class="tag">Coronavirus update</p>
-          <h3>Cabinet squabble over who is to be PM’s ‘designated survivor’</h3>
-        </article>
-        <article class="secondRowItem separatorVertical">
-          <img src="./images/section2/a3.jpg" alt="article 3" />
-          <p class="tag">Coronavirus</p>
-          <h3>
-            &quot;Unacceptable&quot; equipment shortages putting our lives at
-            risk, doctors warn PM
-          </h3>
-        </article>
-        <article class="secondRowItem">
-          <img src="./images/section2/a4.jpg" alt="article 4" />
-          <p class="tag">David Smith</p>
-          <h3>Even in wartime, nobody dared to do this</h3>
-        </article>
-        <article class="secondRowItem separatorVertical">
-          <p class="tag">Coronavirus</p>
-          <h3>Tesco ditches offers — and raises prices</h3>
-          <p>
-            Britain’s biggest supermarket chain has removed promotions and
-            multi-buy deals to deter shoppers from stockpiling, while also
-            pushing up the prices on hundreds of products as coronavirus
-            panic-buying hammered grocery stocks.
-          </p>
-          <footer>
-            Read the full story &gt;
-          </footer>
-        </article>
-        <article class="secondRowItem separatorVertical">
-          <img src="images/section2/a6.jpg" alt="Boris Johnson" />
-          <p class="tag">Boris Johnson</p>
-          <h3>Don’t visit Mum today. It’s the best way to show you love her</h3>
-        </article>
-        <article class="secondRowItem separatorVertical">
-          <p class="tag">Coronavirus</p>
-          <h3>Queen plans national address as royals leave London</h3>
-          <p>
-            The Queen is to speak to the nation as the coronavirus crisis
-            worsens. It will be only the fourth special address of her 68-year
-            reign. Her Majesty gave her last such speech in 2002 on the eve of
-            her mother’s funeral. Her...
-          </p>
-          <footer>
-            Read the full story &gt;
-          </footer>
-        </article>
-        <article class="secondRowItem">
-          <img src="images/section2/a8.jpg" alt="Comedian" />
-          <p class="tag">Coronavirus</p>
-          <h3>
-            A comedian walks into a crisis . . . and finds a new source of jokes
-          </h3>
-        </article>
-      </section>
-      <section class="moreButtonContainer">
-        <button class="moreButtonItem">Show more</button>
-      </section>
-    </section>
-    <footer class="mainFooter bgBlack">
-      <section class="mainContainer">
-        <p class="finePrint">
-          <small>
-            © Times Newspapers Limited 2020. Registered in England No. 894646.
-            <br />
-            Registered office: 1 London Bridge Street, SE1 9GF.
-          </small>
-        </p>
-
-        <nav>
-          <ul class="flexContainer navBar">
-            <li>Privacy & cookie policy</li>
-            <li>Licensing</li>
-            <li>Cookie settings</li>
-            <li>Site map</li>
-            <li>Topics</li>
-            <li>Commissioning terms</li>
-            <li>Terms and conditions</li>
-            <li class="noHover">
-              <img src="images/footer/ipso-f7843bf2cd.png" alt="IPSO Logo" />
-            </li>
-          </ul>
-        </nav>
-      </section>
-    </footer>
-  </body>
+  </section>
+</footer>
+</body>
 </html>
